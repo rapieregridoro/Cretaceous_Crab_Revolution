@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Scenes/Jogador/Jogador.gd" type="Script" id=1]
 [ext_resource path="res://Images/submarino.png" type="Texture" id=2]
 [ext_resource path="res://Images/bolha.png" type="Texture" id=3]
+[ext_resource path="res://Images/light.png" type="Texture" id=4]
 
 [sub_resource type="ParticlesMaterial" id=1]
 gravity = Vector3( 0, -30, 0 )
@@ -30,3 +31,7 @@ texture = ExtResource( 3 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 2 )
+
+[node name="Light2D" type="Light2D" parent="."]
+texture = ExtResource( 4 )
+mode = 2
