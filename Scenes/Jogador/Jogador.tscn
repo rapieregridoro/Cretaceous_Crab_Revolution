@@ -35,3 +35,4 @@ shape = SubResource( 2 )
 [node name="Light2D" type="Light2D" parent="."]
 texture = ExtResource( 4 )
 mode = 2
+shadow_color = Color( 0, 0, 0, 1 )
