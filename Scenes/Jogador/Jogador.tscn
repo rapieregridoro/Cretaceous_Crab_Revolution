@@ -65,20 +65,18 @@ shadow_item_cull_mask = 3
 
 [node name="DirectionalHardLight" type="Light2D" parent="DirectionalLight"]
 light_mask = 3
-position = Vector2( 60, 0 )
 rotation = 3.14159
 scale = Vector2( -1, 1 )
 texture = ExtResource( 5 )
-offset = Vector2( 60.0004, -1.0003 )
+offset = Vector2( 120, -1.00045 )
 shadow_enabled = true
 shadow_filter = 5
 shadow_item_cull_mask = 3
 
 [node name="DirectionalSoftLight" type="Light2D" parent="DirectionalLight"]
 light_mask = 3
-position = Vector2( 60, 0 )
 rotation = 3.14159
 scale = Vector2( -1, 1 )
 texture = ExtResource( 5 )
-offset = Vector2( 60.0001, -1.00043 )
+offset = Vector2( 120, -1.00058 )
 energy = 0.7
