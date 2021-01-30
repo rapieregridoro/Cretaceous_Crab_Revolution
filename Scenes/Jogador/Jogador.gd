@@ -12,8 +12,8 @@ func _ready():
 
 func _input(_event):
 	
-	dir.x =  (int(Input.is_action_pressed("ui_right")) -int(Input.is_action_pressed("ui_left")))
-	dir.y =  (int(Input.is_action_pressed("ui_down")) - int(Input.is_action_pressed("ui_up")))
+	dir.x =  (int(Input.is_action_pressed("Direita")) -int(Input.is_action_pressed("Esquerda")))
+	dir.y =  (int(Input.is_action_pressed("Descer")) - int(Input.is_action_pressed("Subir")))
 	
 	if dir.x != 0:
 		dir_buffer.x = dir.x
