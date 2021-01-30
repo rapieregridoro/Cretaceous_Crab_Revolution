@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/darkness.png-9881b655b6f4b6de1cda9230e8041739.stex"
+path="res://.import/Baiacu.png-335e976c38440a0393a0e7930c3b8bf4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/darkness.png"
-dest_files=[ "res://.import/darkness.png-9881b655b6f4b6de1cda9230e8041739.stex" ]
+source_file="res://Images/Arte/Baiacu.png"
+dest_files=[ "res://.import/Baiacu.png-335e976c38440a0393a0e7930c3b8bf4.stex" ]
 
 [params]
 

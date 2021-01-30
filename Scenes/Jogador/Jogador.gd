@@ -2,7 +2,8 @@ extends KinematicBody2D
 
 var dir : Vector2
 var dir_buffer : Vector2
-var acel : Vector2
+var pointing : Vector2
+
 
 func _ready():
 	
@@ -18,15 +19,11 @@ func _input(_event):
 		dir_buffer.x = dir.x
 		
 	
+	pointing = get_global_mouse_position()
+	
 
 func _physics_process(_delta):
 	
-	
-	if dir.x != 0:
-		
-		acel.x = 100 
-		
-		pass
 	
 	
 	# warning-ignore:return_value_discarded
@@ -37,5 +34,8 @@ func _physics_process(_delta):
 		$Sprite.scale.x = 1
 	else:
 		$Sprite.scale.x = -1
+	
+	$DirectionalLight.rotation = (pointing - global_position).angle()
+	
 	
 
