@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/gabarito tileset.png-ab3a7b7e087c682d31988178284c1ff1.stex"
+path="res://.import/tile_baset.png-9ed97533e3cf43c2e6ba29be21daa3ba.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/Art White/gabarito tileset.png"
-dest_files=[ "res://.import/gabarito tileset.png-ab3a7b7e087c682d31988178284c1ff1.stex" ]
+source_file="res://Images/tile_baset.png"
+dest_files=[ "res://.import/tile_baset.png-9ed97533e3cf43c2e6ba29be21daa3ba.stex" ]
 
 [params]
 
