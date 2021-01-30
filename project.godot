@@ -16,6 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Global_Game_Jam_2021"
+run/main_scene="res://Scenes/Fases/Fase_um.tscn"
 config/icon="res://icon.png"
 
 [display]
