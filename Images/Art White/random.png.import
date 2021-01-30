@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/alga_um.png-39407ed353d74d3d3f67b8d96f299a8c.stex"
+path="res://.import/random.png-3efa61849a561629aa53b13dcf8377b8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/alga_um.png"
-dest_files=[ "res://.import/alga_um.png-39407ed353d74d3d3f67b8d96f299a8c.stex" ]
+source_file="res://Images/Art White/random.png"
+dest_files=[ "res://.import/random.png-3efa61849a561629aa53b13dcf8377b8.stex" ]
 
 [params]
 
