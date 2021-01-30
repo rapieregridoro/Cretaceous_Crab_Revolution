@@ -19,11 +19,10 @@ extents = Vector2( 12, 8 )
 script = ExtResource( 1 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
-visible = false
-margin_left = -201.0
-margin_top = -109.0
-margin_right = 225.0
-margin_bottom = 103.0
+margin_left = -445.0
+margin_top = -303.0
+margin_right = 432.0
+margin_bottom = 275.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -70,7 +69,6 @@ rotation = 3.14159
 scale = Vector2( -1, 1 )
 texture = ExtResource( 5 )
 offset = Vector2( 60.0004, -1.0003 )
-color = Color( 0.00784314, 0, 1, 1 )
 shadow_enabled = true
 shadow_filter = 5
 shadow_item_cull_mask = 3
@@ -82,5 +80,4 @@ rotation = 3.14159
 scale = Vector2( -1, 1 )
 texture = ExtResource( 5 )
 offset = Vector2( 60.0001, -1.00043 )
-color = Color( 0.00784314, 0, 1, 1 )
 energy = 0.7
