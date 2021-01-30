@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sprite_Terra.png-78b55ad2d2da257b608584ac0c9d1d4d.stex"
+path="res://.import/Valerie_big.png-b64adfafe13cf8635cf51bff0a045ef6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/Sprite_Terra.png"
-dest_files=[ "res://.import/Sprite_Terra.png-78b55ad2d2da257b608584ac0c9d1d4d.stex" ]
+source_file="res://Images/Arte/Valerie_big.png"
+dest_files=[ "res://.import/Valerie_big.png-b64adfafe13cf8635cf51bff0a045ef6.stex" ]
 
 [params]
 
