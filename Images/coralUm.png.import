@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Porta_abrindo.png-1894a79ecce6fc944c8eb711dcbcd50f.stex"
+path="res://.import/coralUm.png-a999173496d58398f87f622a7b8f0847.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/Arte/Porta_abrindo.png"
-dest_files=[ "res://.import/Porta_abrindo.png-1894a79ecce6fc944c8eb711dcbcd50f.stex" ]
+source_file="res://Images/coralUm.png"
+dest_files=[ "res://.import/coralUm.png-a999173496d58398f87f622a7b8f0847.stex" ]
 
 [params]
 

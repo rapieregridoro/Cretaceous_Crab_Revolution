@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/garra caranguejo.png-fda320fd6339336b6c99b898cd8e82d0.stex"
+path="res://.import/hud.png-a7253beb3e909698b0e5fcb74fd040cb.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/Art White/garra caranguejo.png"
-dest_files=[ "res://.import/garra caranguejo.png-fda320fd6339336b6c99b898cd8e82d0.stex" ]
+source_file="res://Images/hud.png"
+dest_files=[ "res://.import/hud.png-a7253beb3e909698b0e5fcb74fd040cb.stex" ]
 
 [params]
 

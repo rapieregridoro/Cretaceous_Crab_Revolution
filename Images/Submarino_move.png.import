@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Baiacu_expan.png-84a9571a368b2ecaa3179035eeb0d297.stex"
+path="res://.import/Submarino_move.png-8d8b40147b5082962aaa5305d64488c0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/Arte/Baiacu_expan.png"
-dest_files=[ "res://.import/Baiacu_expan.png-84a9571a368b2ecaa3179035eeb0d297.stex" ]
+source_file="res://Images/Submarino_move.png"
+dest_files=[ "res://.import/Submarino_move.png-8d8b40147b5082962aaa5305d64488c0.stex" ]
 
 [params]
 

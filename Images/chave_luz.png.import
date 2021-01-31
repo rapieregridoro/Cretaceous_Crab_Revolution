@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/chave_luz.png-db5e8c3a20754ec2ccc89f098f5c2bdc.stex"
+path="res://.import/chave_luz.png-c5cd38e1a3735036f0e419d9ffbd71ea.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/Art White/chave_luz.png"
-dest_files=[ "res://.import/chave_luz.png-db5e8c3a20754ec2ccc89f098f5c2bdc.stex" ]
+source_file="res://Images/chave_luz.png"
+dest_files=[ "res://.import/chave_luz.png-c5cd38e1a3735036f0e419d9ffbd71ea.stex" ]
 
 [params]
 

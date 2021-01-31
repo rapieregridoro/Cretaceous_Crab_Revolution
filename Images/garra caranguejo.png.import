@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/coral1.png-021361071a203a37b22d8d34dc8acd49.stex"
+path="res://.import/garra caranguejo.png-e0bb4f457b3bd8c616150fbc49611539.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/Art White/coral1.png"
-dest_files=[ "res://.import/coral1.png-021361071a203a37b22d8d34dc8acd49.stex" ]
+source_file="res://Images/garra caranguejo.png"
+dest_files=[ "res://.import/garra caranguejo.png-e0bb4f457b3bd8c616150fbc49611539.stex" ]
 
 [params]
 
