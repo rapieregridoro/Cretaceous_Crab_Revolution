@@ -7,11 +7,15 @@ const Valerie = "Valerie"
 var conversa = "nenhuma"
 var retrato = "Ninguem"
 
+var chave = [false, false, false, false, false]
+var cutscene = false
+
 func _ready():
 	TranslationServer.set_locale("pt_BR")
 	
 
 func _process(delta):
+	
 	pass
 
 

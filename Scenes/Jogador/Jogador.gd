@@ -12,18 +12,26 @@ func set_cone_state(valor):
 			light_cone_color = Color(1,1,1,1)
 			light_cone_state = valor
 			$Jogador_anim/DirectionalLight/DirectionalHardLight.set_item_cull_mask(1)
+			$Jogador_anim/HardLight.texture_scale = 2
+			$Jogador_anim/SoftLight.texture_scale = 2
 		1:
 			light_cone_color = Color(0.898438, 0, 1,1)
 			light_cone_state = valor
 			$DirectionalLight/DirectionalHardLight.set_item_cull_mask(9)
+			$Jogador_anim/HardLight.texture_scale = 1
+			$Jogador_anim/SoftLight.texture_scale = 1
 		2:
 			light_cone_color = Color(1, 0, 0, 1)
 			light_cone_state = valor
 			$DirectionalLight/DirectionalHardLight.set_item_cull_mask(5)
+			$Jogador_anim/HardLight.texture_scale = 1
+			$Jogador_anim/SoftLight.texture_scale = 1
 		3:
 			light_cone_color = Color(1,1,1,1)
 			light_cone_state = 0
 			$DirectionalLight/DirectionalHardLight.set_item_cull_mask(1)
+			$Jogador_anim/HardLight.texture_scale = 2
+			$Jogador_anim/SoftLight.texture_scale = 2
 	
 	
 
@@ -57,7 +65,8 @@ func _physics_process(_delta):
 	pointing = get_global_mouse_position()
 	
 	# warning-ignore:return_value_discarded
-	move_and_slide(dir*Vector2(100,50), Vector2(0,-1))
+	if not CCR_Global.cutscene:
+		move_and_slide(dir*Vector2(100,50), Vector2(0,-1))
 	
 	if dir_buffer.x < 0:
 		

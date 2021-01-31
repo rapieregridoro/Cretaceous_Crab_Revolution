@@ -19,6 +19,7 @@ linear_accel = 10.0
 extents = Vector2( 17, 10 )
 
 [node name="Jogador" type="KinematicBody2D"]
+collision_layer = 3
 script = ExtResource( 1 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
@@ -44,6 +45,7 @@ texture = ExtResource( 3 )
 
 [node name="HardLight" type="Light2D" parent="Jogador_anim"]
 texture = ExtResource( 4 )
+texture_scale = 2.0
 mode = 2
 range_item_cull_mask = 3
 shadow_enabled = true
@@ -52,6 +54,7 @@ shadow_color = Color( 0, 0, 0, 1 )
 [node name="SoftLight" type="Light2D" parent="Jogador_anim"]
 light_mask = 3
 texture = ExtResource( 4 )
+texture_scale = 2.0
 energy = 0.7
 mode = 2
 shadow_color = Color( 0, 0, 0, 1 )
