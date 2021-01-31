@@ -19,10 +19,6 @@ config/name="Global_Game_Jam_2021"
 run/main_scene="res://Scenes/Fases/Fase_um.tscn"
 config/icon="res://Images/submarino.png"
 
-[autoload]
-
-CCR_Global="*res://Scenes/Global.tscn"
-
 [display]
 
 window/size/width=512
@@ -95,13 +91,6 @@ Interagir={
 "events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
  ]
 }
-
-[layer_names]
-
-2d_render/layer_1="Tile"
-2d_render/layer_2="Jogador"
-2d_render/layer_3="Infravermelho"
-2d_render/layer_4="Ultravioleta"
 
 [locale]
 
