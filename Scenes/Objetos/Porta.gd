@@ -16,6 +16,7 @@ func open_the_door():
 	
 	$Sprite/AnimationPlayer.play("Abrir")
 	$StaticBody2D/CollisionShape2D.disabled = true
+	$Porta_Abrindo.play()
 	
 
 func _on_Area2D_body_entered(body):
