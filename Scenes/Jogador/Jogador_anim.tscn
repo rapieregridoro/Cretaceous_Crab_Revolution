@@ -38,17 +38,24 @@ tracks/0/keys = {
 }
 
 [node name="Jogador_anim" type="Node2D"]
+light_mask = 2
 
 [node name="Move" type="Sprite" parent="."]
+light_mask = 2
 texture = ExtResource( 1 )
+offset = Vector2( -5, -1 )
 hframes = 5
+frame = 3
 
 [node name="Move" type="AnimationPlayer" parent="Move"]
 autoplay = "Move"
 anims/Move = SubResource( 1 )
 
 [node name="Death" type="Sprite" parent="."]
+visible = false
+light_mask = 2
 texture = ExtResource( 2 )
+offset = Vector2( -5, -1 )
 hframes = 7
 
 [node name="Death" type="AnimationPlayer" parent="Death"]

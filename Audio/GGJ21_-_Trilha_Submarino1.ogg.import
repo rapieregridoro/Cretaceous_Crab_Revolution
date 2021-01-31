@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/GGJ21_-_Trilha_Submarino1.ogg-47b4a5d2b6fbbc02561f8098afcc9c55.oggstr"
+
+[deps]
+
+source_file="res://Audio/GGJ21_-_Trilha_Submarino1.ogg"
+dest_files=[ "res://.import/GGJ21_-_Trilha_Submarino1.ogg-47b4a5d2b6fbbc02561f8098afcc9c55.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=1.0

@@ -1,10 +1,10 @@
 [gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Scenes/Jogador/Jogador.gd" type="Script" id=1]
-[ext_resource path="res://Images/submarino.png" type="Texture" id=2]
 [ext_resource path="res://Images/bolha.png" type="Texture" id=3]
 [ext_resource path="res://Images/light.png" type="Texture" id=4]
 [ext_resource path="res://Images/Direcionallight.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/Jogador/Jogador_anim.tscn" type="PackedScene" id=6]
 
 [sub_resource type="ParticlesMaterial" id=1]
 gravity = Vector3( 0, -30, 0 )
@@ -28,10 +28,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Sprite" type="Sprite" parent="."]
-light_mask = -2147483646
-texture = ExtResource( 2 )
-offset = Vector2( -6, -1 )
+[node name="Jogador_anim" parent="." instance=ExtResource( 6 )]
 
 [node name="Particles2D" type="Particles2D" parent="."]
 show_behind_parent = true
@@ -64,20 +61,19 @@ shadow_item_cull_mask = 3
 [node name="DirectionalLight" type="Node2D" parent="."]
 
 [node name="DirectionalHardLight" type="Light2D" parent="DirectionalLight"]
-light_mask = 3
+light_mask = 0
 rotation = 3.14159
 scale = Vector2( -1, 1 )
 texture = ExtResource( 5 )
 offset = Vector2( 120, -1.00045 )
 shadow_enabled = true
 shadow_filter = 5
-shadow_item_cull_mask = 3
+shadow_item_cull_mask = 13
 
 [node name="DirectionalSoftLight" type="Light2D" parent="DirectionalLight"]
-light_mask = 3
+light_mask = 0
 rotation = 3.14159
 scale = Vector2( -1, 1 )
 texture = ExtResource( 5 )
 offset = Vector2( 120, -1.00058 )
 energy = 0.7
-shadow_item_cull_mask = 3

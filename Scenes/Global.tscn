@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Audio/GGJ21_-_Trilha_Submarino1.ogg" type="AudioStream" id=1]
+
+[node name="Global" type="Node"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 1 )
