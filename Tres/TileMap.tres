@@ -286,145 +286,145 @@ points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 
 [sub_resource type="OccluderPolygon2D" id=95]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 3, 16, 3, 16, 16, 3, 16 )
 
 [sub_resource type="OccluderPolygon2D" id=96]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 16, 0, 16, 16, 3, 16 )
 
 [sub_resource type="OccluderPolygon2D" id=97]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 16, 0, 16, 13, 3, 13 )
 
 [sub_resource type="OccluderPolygon2D" id=98]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 3, 16, 3, 16, 13, 3, 13 )
 
 [sub_resource type="OccluderPolygon2D" id=99]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 3, 16, 3, 16, 13, 13, 13, 13, 16, 3, 16 )
 
 [sub_resource type="OccluderPolygon2D" id=100]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 13, 0, 13, 16, 3, 16 )
 
 [sub_resource type="OccluderPolygon2D" id=101]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 13, 0, 13, 3, 16, 3, 16, 13, 3, 13 )
 
 [sub_resource type="OccluderPolygon2D" id=102]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 13, 0, 13, 3, 16, 3, 16, 13, 13, 13, 13, 16, 3, 16 )
 
 [sub_resource type="OccluderPolygon2D" id=103]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 0, 13, 0, 13, 3, 16, 3, 16, 13, 13, 13, 13, 16, 0, 16 )
 
 [sub_resource type="OccluderPolygon2D" id=104]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 3, 16, 3, 16, 16, 0, 16 )
 
 [sub_resource type="OccluderPolygon2D" id=105]
 polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 
 [sub_resource type="OccluderPolygon2D" id=106]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 0, 16, 0, 16, 13, 0, 13 )
 
 [sub_resource type="OccluderPolygon2D" id=107]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 3, 13, 3, 13, 16, 3, 16 )
 
 [sub_resource type="OccluderPolygon2D" id=108]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 13, 0, 13, 3, 16, 3, 16, 13, 13, 13, 13, 16, 3, 16, 3, 13, 0, 13, 0, 3, 3, 3 )
 
 [sub_resource type="OccluderPolygon2D" id=109]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 13, 0, 13, 13, 3, 13 )
 
 [sub_resource type="OccluderPolygon2D" id=110]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 3, 16, 3, 16, 13, 0, 13 )
 
 [sub_resource type="OccluderPolygon2D" id=111]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 3, 13, 3, 13, 13, 3, 13 )
 
 [sub_resource type="OccluderPolygon2D" id=112]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 3, 16, 3, 16, 13, 13, 13, 13, 16, 3, 16, 3, 13, 0, 13 )
 
 [sub_resource type="OccluderPolygon2D" id=113]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 13, 0, 13, 3, 16, 3, 16, 13, 0, 13, 0, 3, 3, 3 )
 
 [sub_resource type="OccluderPolygon2D" id=114]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 0, 16, 0, 16, 13, 13, 13, 13, 16, 3, 16, 3, 13, 0, 13 )
 
 [sub_resource type="OccluderPolygon2D" id=115]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 13, 0, 13, 3, 16, 3, 16, 16, 0, 16, 0, 3, 3, 3 )
 
 [sub_resource type="OccluderPolygon2D" id=116]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 3, 13, 3, 13, 16, 0, 16 )
 
 [sub_resource type="OccluderPolygon2D" id=117]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 0, 13, 0, 13, 16, 0, 16 )
 
 [sub_resource type="OccluderPolygon2D" id=118]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 0, 13, 0, 13, 13, 0, 13 )
 
 [sub_resource type="OccluderPolygon2D" id=119]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 3, 13, 3, 13, 13, 0, 13 )
 
 [sub_resource type="OccluderPolygon2D" id=120]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 3, 13, 3, 13, 16, 3, 16, 3, 13, 0, 13 )
 
 [sub_resource type="OccluderPolygon2D" id=121]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 13, 0, 13, 13, 0, 13, 0, 3, 3, 3 )
 
 [sub_resource type="OccluderPolygon2D" id=122]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 13, 0, 13, 16, 3, 16, 3, 13, 0, 13, 0, 3, 3, 3 )
 
 [sub_resource type="OccluderPolygon2D" id=123]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 16, 0, 16, 16, 3, 16, 3, 13, 0, 13, 0, 3, 3, 3 )
 
 [sub_resource type="OccluderPolygon2D" id=124]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 0, 16, 0, 16, 13, 13, 13, 13, 16, 0, 16 )
 
 [sub_resource type="OccluderPolygon2D" id=125]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 0, 13, 0, 13, 3, 16, 3, 16, 16, 0, 16 )
 
 [sub_resource type="OccluderPolygon2D" id=126]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 16, 0, 16, 13, 13, 13, 13, 16, 3, 16 )
 
 [sub_resource type="OccluderPolygon2D" id=127]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 13, 0, 13, 3, 16, 3, 16, 16, 3, 16 )
 
 [sub_resource type="OccluderPolygon2D" id=128]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 3, 16, 3, 16, 13, 13, 13, 13, 16, 0, 16 )
 
 [sub_resource type="OccluderPolygon2D" id=129]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 0, 13, 0, 13, 3, 16, 3, 16, 13, 0, 13 )
 
 [sub_resource type="OccluderPolygon2D" id=130]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 13, 0, 13, 3, 16, 3, 16, 16, 3, 16, 3, 13, 0, 13, 0, 3, 3, 3 )
 
 [sub_resource type="OccluderPolygon2D" id=131]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 16, 0, 16, 13, 13, 13, 13, 16, 3, 16, 3, 13, 0, 13, 0, 3, 3, 3 )
 
 [sub_resource type="OccluderPolygon2D" id=132]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 16, 0, 16, 13, 13, 13, 13, 16, 0, 16, 0, 3, 3, 3 )
 
 [sub_resource type="OccluderPolygon2D" id=133]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 3, 16, 3, 13, 0, 13 )
 
 [sub_resource type="OccluderPolygon2D" id=134]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 16, 0, 16, 16, 0, 16, 0, 3, 3, 3 )
 
 [sub_resource type="OccluderPolygon2D" id=135]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 0, 13, 0, 13, 16, 3, 16, 3, 13, 0, 13 )
 
 [sub_resource type="OccluderPolygon2D" id=136]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 13, 0, 13, 16, 0, 16, 0, 3, 3, 3 )
 
 [sub_resource type="OccluderPolygon2D" id=137]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 3, 16, 3, 16, 16, 3, 16, 3, 13, 0, 13 )
 
 [sub_resource type="OccluderPolygon2D" id=138]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 0, 16, 0, 16, 13, 0, 13, 0, 3, 3, 3 )
 
 [sub_resource type="OccluderPolygon2D" id=139]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 3, 3, 3, 0, 13, 0, 13, 3, 16, 3, 16, 13, 13, 13, 13, 16, 0, 16, 0, 3 )
 
 [sub_resource type="OccluderPolygon2D" id=140]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 0, 13, 0, 13, 3, 16, 3, 16, 13, 13, 13, 13, 16, 3, 16, 3, 13, 0, 13 )
 
 [sub_resource type="OccluderPolygon2D" id=141]
-polygon = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+polygon = PoolVector2Array( 0, 0, 13, 0, 13, 3, 16, 3, 16, 16, 3, 16, 3, 13, 0, 13 )
 
 [sub_resource type="ConvexPolygonShape2D" id=142]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
