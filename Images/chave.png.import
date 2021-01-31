@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/hud.png-5226fd354db0f8b3dee94230d7dd6048.stex"
+path="res://.import/chave.png-3b64650560087e02311d9663024fd44a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/Arte/hud.png"
-dest_files=[ "res://.import/hud.png-5226fd354db0f8b3dee94230d7dd6048.stex" ]
+source_file="res://Images/chave.png"
+dest_files=[ "res://.import/chave.png-3b64650560087e02311d9663024fd44a.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Chamine.png-1064b24edf40725894ef80872f728ec8.stex"
+path="res://.import/Ziloneo.png-844e46ac19efcec4c611715efb1d7290.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/Arte/Chamine.png"
-dest_files=[ "res://.import/Chamine.png-1064b24edf40725894ef80872f728ec8.stex" ]
+source_file="res://Images/Ziloneo.png"
+dest_files=[ "res://.import/Ziloneo.png-844e46ac19efcec4c611715efb1d7290.stex" ]
 
 [params]
 

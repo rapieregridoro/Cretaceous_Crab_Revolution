@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/chave.png-aa87b80c403e591fb33d42722ea8c3a7.stex"
+path="res://.import/Froggson.png-d71b8191a61914056967169f2f492c83.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/Art White/chave.png"
-dest_files=[ "res://.import/chave.png-aa87b80c403e591fb33d42722ea8c3a7.stex" ]
+source_file="res://Images/Froggson.png"
+dest_files=[ "res://.import/Froggson.png-d71b8191a61914056967169f2f492c83.stex" ]
 
 [params]
 
