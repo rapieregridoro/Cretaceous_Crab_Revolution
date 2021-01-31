@@ -47,34 +47,42 @@ position = Vector2( -2885, -792 )
 [node name="Chaves" type="Node2D" parent="Objetos"]
 
 [node name="Chave_0" parent="Objetos/Chaves" instance=ExtResource( 3 )]
+position = Vector2( 662, -174 )
 
 [node name="Chave_1" parent="Objetos/Chaves" instance=ExtResource( 3 )]
+position = Vector2( 2355, 422 )
 ID = 1
 
 [node name="Chave_2" parent="Objetos/Chaves" instance=ExtResource( 3 )]
+position = Vector2( 2402, 1053 )
 ID = 2
 
 [node name="Chave_3" parent="Objetos/Chaves" instance=ExtResource( 3 )]
+position = Vector2( 4180, 647 )
 ID = 3
 
 [node name="Chave_4" parent="Objetos/Chaves" instance=ExtResource( 3 )]
+position = Vector2( 6260, 918 )
 ID = 4
 
 [node name="Portas" type="Node2D" parent="Objetos"]
 
 [node name="Porta_0" parent="Objetos/Portas" instance=ExtResource( 7 )]
+position = Vector2( 1104, 80 )
 
 [node name="Porta_1" parent="Objetos/Portas" instance=ExtResource( 7 )]
+position = Vector2( 1360, 864 )
+rotation = 1.5706
 ID = 1
 
 [node name="Porta_2" parent="Objetos/Portas" instance=ExtResource( 7 )]
+position = Vector2( 2464, 1344 )
 ID = 2
 
 [node name="Porta_3" parent="Objetos/Portas" instance=ExtResource( 7 )]
+position = Vector2( 2624, 1680 )
+scale = Vector2( -1, 1 )
 ID = 3
-
-[node name="Porta_4" parent="Objetos/Portas" instance=ExtResource( 7 )]
-ID = 4
 
 [node name="Area2D" type="Area2D" parent="."]
 position = Vector2( -2453, -784 )
