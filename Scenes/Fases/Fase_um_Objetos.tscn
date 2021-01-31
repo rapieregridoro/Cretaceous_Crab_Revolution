@@ -1,177 +1,169 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Scenes/Objetos/Alga.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Scenes/Objetos/Porta.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scenes/Objetos/Anemona.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Scenes/Objetos/Chave.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Scenes/Objetos/Malamar.tscn" type="PackedScene" id=5]
 
 [node name="Objetos" type="Node2D"]
 
-[node name="Malamar" type="Node2D" parent="." instance=ExtResource( 5 )]
+[node name="Malamar" parent="." instance=ExtResource( 5 )]
 position = Vector2( 580, 78 )
 
-[node name="Malamar2" type="Node2D" parent="." instance=ExtResource( 5 )]
+[node name="Malamar2" parent="." instance=ExtResource( 5 )]
 position = Vector2( 1497, 814 )
 
-[node name="Malamar3" type="Node2D" parent="." instance=ExtResource( 5 )]
+[node name="Malamar3" parent="." instance=ExtResource( 5 )]
 position = Vector2( 2093, 494 )
 
-[node name="Malamar4" type="Node2D" parent="." instance=ExtResource( 5 )]
+[node name="Malamar4" parent="." instance=ExtResource( 5 )]
 position = Vector2( 2324, 1054 )
 
-[node name="Malamar5" type="Node2D" parent="." instance=ExtResource( 5 )]
+[node name="Malamar5" parent="." instance=ExtResource( 5 )]
 position = Vector2( 3104, 1790 )
 
-[node name="Malamar6" type="Node2D" parent="." instance=ExtResource( 5 )]
+[node name="Malamar6" parent="." instance=ExtResource( 5 )]
 position = Vector2( 2893, 1774 )
 
-[node name="Malamar7" type="Node2D" parent="." instance=ExtResource( 5 )]
+[node name="Malamar7" parent="." instance=ExtResource( 5 )]
 position = Vector2( 4220, 1806 )
 
-[node name="Malamar8" type="Node2D" parent="." instance=ExtResource( 5 )]
+[node name="Malamar8" parent="." instance=ExtResource( 5 )]
 position = Vector2( 4031, 638 )
 
-[node name="Malamar9" type="Node2D" parent="." instance=ExtResource( 5 )]
+[node name="Malamar9" parent="." instance=ExtResource( 5 )]
 position = Vector2( 3083, 863 )
 
-[node name="Alga" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga" parent="." instance=ExtResource( 1 )]
 position = Vector2( 750, 112 )
 
-[node name="Alga2" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga2" parent="." instance=ExtResource( 1 )]
 position = Vector2( 846, 129 )
 
-[node name="Alga3" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga3" parent="." instance=ExtResource( 1 )]
 position = Vector2( -38, 64 )
 
-[node name="Alga4" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga4" parent="." instance=ExtResource( 1 )]
 position = Vector2( -172, 32 )
 
-[node name="Alga5" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga5" parent="." instance=ExtResource( 1 )]
 position = Vector2( 98, 80 )
 
-[node name="Alga6" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga6" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1230, 176 )
 
-[node name="Alga7" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga7" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1532, 224 )
 
-[node name="Alga8" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga8" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1506, 223 )
 
-[node name="Alga9" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga9" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1744, 544 )
 
-[node name="Alga10" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga10" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1617, 576 )
 
-[node name="Alga11" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga11" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1246, 800 )
 
-[node name="Alga12" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga12" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1687, 896 )
 
-[node name="Alga14" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga14" parent="." instance=ExtResource( 1 )]
 position = Vector2( 2004, 880 )
 
-[node name="Alga15" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga15" parent="." instance=ExtResource( 1 )]
 position = Vector2( 2220, 624 )
 
-[node name="Alga16" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga16" parent="." instance=ExtResource( 1 )]
 position = Vector2( 2255, 465 )
 
-[node name="Alga17" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga17" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1188, 1121 )
 
-[node name="Alga18" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga18" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1293, 1136 )
 
-[node name="Alga19" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga19" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1655, 1184 )
 
-[node name="Alga20" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga20" parent="." instance=ExtResource( 1 )]
 position = Vector2( 2105, 1200 )
 
-[node name="Alga21" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga21" parent="." instance=ExtResource( 1 )]
 position = Vector2( 2594, 1392 )
 
-[node name="Alga22" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga22" parent="." instance=ExtResource( 1 )]
 position = Vector2( 2313, 1360 )
 
-[node name="Alga23" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga23" parent="." instance=ExtResource( 1 )]
 position = Vector2( 2783, 1776 )
 
-[node name="Alga24" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga24" parent="." instance=ExtResource( 1 )]
 position = Vector2( 3024, 1776 )
 
-[node name="Alga25" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga25" parent="." instance=ExtResource( 1 )]
 position = Vector2( 3067, 1792 )
 
-[node name="Alga26" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga26" parent="." instance=ExtResource( 1 )]
 position = Vector2( 2988, 1776 )
 
-[node name="Alga27" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga27" parent="." instance=ExtResource( 1 )]
 position = Vector2( 3998, 1857 )
 
-[node name="Alga28" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga28" parent="." instance=ExtResource( 1 )]
 position = Vector2( 4092, 1841 )
 
-[node name="Alga29" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga29" parent="." instance=ExtResource( 1 )]
 position = Vector2( 4178, 1826 )
 
-[node name="Alga30" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga30" parent="." instance=ExtResource( 1 )]
 position = Vector2( 4552, 1072 )
 
-[node name="Alga31" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga31" parent="." instance=ExtResource( 1 )]
 position = Vector2( 4781, 1072 )
 
-[node name="Alga32" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga32" parent="." instance=ExtResource( 1 )]
 position = Vector2( 5111, 960 )
 
-[node name="Alga33" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga33" parent="." instance=ExtResource( 1 )]
 position = Vector2( 5426, 944 )
 
-[node name="Alga34" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga34" parent="." instance=ExtResource( 1 )]
 position = Vector2( 5832, 1266 )
 
-[node name="Alga35" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga35" parent="." instance=ExtResource( 1 )]
 position = Vector2( 6197, 912 )
 
-[node name="Alga36" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga36" parent="." instance=ExtResource( 1 )]
 position = Vector2( 4446, 865 )
 
-[node name="Alga37" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga37" parent="." instance=ExtResource( 1 )]
 position = Vector2( 4619, 816 )
 
-[node name="Alga38" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga38" parent="." instance=ExtResource( 1 )]
 position = Vector2( 4244, 481 )
 
-[node name="Alga39" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga39" parent="." instance=ExtResource( 1 )]
 position = Vector2( 3840, 449 )
 
-[node name="Alga13" type="Node2D" parent="." instance=ExtResource( 1 )]
+[node name="Alga13" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1771, 896 )
 
-[node name="Chave" type="Node2D" parent="." instance=ExtResource( 4 )]
-position = Vector2( 656, -167 )
-
-[node name="Porta" type="Node2D" parent="." instance=ExtResource( 2 )]
-position = Vector2( 1104, 80 )
-
-[node name="Anemona" type="Node2D" parent="." instance=ExtResource( 3 )]
+[node name="Anemona" parent="." instance=ExtResource( 3 )]
 position = Vector2( 946, 141 )
 
-[node name="Anemona2" type="Node2D" parent="." instance=ExtResource( 3 )]
+[node name="Anemona2" parent="." instance=ExtResource( 3 )]
 position = Vector2( 1871, 893 )
 
-[node name="Anemona3" type="Node2D" parent="." instance=ExtResource( 3 )]
+[node name="Anemona3" parent="." instance=ExtResource( 3 )]
 position = Vector2( 1439, 1101 )
 
-[node name="Anemona4" type="Node2D" parent="." instance=ExtResource( 3 )]
+[node name="Anemona4" parent="." instance=ExtResource( 3 )]
 position = Vector2( 3178, 1806 )
 
-[node name="Anemona5" type="Node2D" parent="." instance=ExtResource( 3 )]
+[node name="Anemona5" parent="." instance=ExtResource( 3 )]
 position = Vector2( 4047, 1854 )
 
-[node name="Anemona6" type="Node2D" parent="." instance=ExtResource( 3 )]
+[node name="Anemona6" parent="." instance=ExtResource( 3 )]
 position = Vector2( 5269, 909 )
