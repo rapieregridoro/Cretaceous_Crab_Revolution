@@ -84,6 +84,10 @@ position = Vector2( 2624, 1680 )
 scale = Vector2( -1, 1 )
 ID = 3
 
+[node name="Porta_4" parent="Objetos/Portas" instance=ExtResource( 7 )]
+position = Vector2( 2592, 1680 )
+scale = Vector2( -1, 1 )
+
 [node name="Area2D" type="Area2D" parent="."]
 position = Vector2( -2453, -784 )
 
