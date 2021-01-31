@@ -37,7 +37,6 @@ func _input(_event):
 		dir_buffer.x = dir.x
 		
 	
-	pointing = get_global_mouse_position()
 	
 	if Input.is_action_just_pressed("Trocar_Luz"):
 		set_cone_state(light_cone_state + 1)
@@ -47,7 +46,7 @@ func _input(_event):
 
 func _physics_process(_delta):
 	
-	
+	pointing = get_global_mouse_position()
 	
 	# warning-ignore:return_value_discarded
 	move_and_slide(dir*Vector2(100,50), Vector2(0,-1))
@@ -65,6 +64,6 @@ func _physics_process(_delta):
 	
 	
 	
-	
+	print(tr("olha"))
 	
 	
