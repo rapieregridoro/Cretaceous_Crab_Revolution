@@ -93,6 +93,21 @@ ID = 4
 [node name="Chamine" parent="Objetos" instance=ExtResource( 8 )]
 position = Vector2( 194, 89 )
 
+[node name="Chamine2" parent="Objetos" instance=ExtResource( 8 )]
+position = Vector2( 3365, 1865 )
+
+[node name="Chamine3" parent="Objetos" instance=ExtResource( 8 )]
+position = Vector2( 3461, 1849 )
+
+[node name="Chamine4" parent="Objetos" instance=ExtResource( 8 )]
+position = Vector2( 3593, 1833 )
+
+[node name="Chamine5" parent="Objetos" instance=ExtResource( 8 )]
+position = Vector2( 3822, 1849 )
+
+[node name="Chamine6" parent="Objetos" instance=ExtResource( 8 )]
+position = Vector2( 3968, 1865 )
+
 [node name="Area2D" type="Area2D" parent="."]
 position = Vector2( -2453, -784 )
 

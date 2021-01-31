@@ -84,10 +84,10 @@ func _physics_process(_delta):
 	
 	
 
-
-func _on_Morte_body_entered(body):
+func _on_Morte_area_shape_entered(area_id, area, area_shape, self_shape):
 	CCR_Global.cutscene = true
+	$Jogador_anim/Move.hide()
+	$Jogador_anim/Death.show()
+	$Jogador_anim/Death/Death.play("Death")
 	
-	$Jogador_anim/Death/Death.play()
 	
-	pass 
