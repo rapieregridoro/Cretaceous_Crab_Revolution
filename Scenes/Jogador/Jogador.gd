@@ -7,7 +7,6 @@ var light_cone_state = 0 setget set_cone_state
 
 func set_cone_state(valor):
 	
-	print("valor: " , valor)
 	match valor:
 		0:
 			light_cone_color = Color(1,1,1,1)
@@ -26,9 +25,10 @@ func set_cone_state(valor):
 			light_cone_state = 0
 			$DirectionalLight/DirectionalHardLight.set_item_cull_mask(1)
 	
-	print("state: ", light_cone_state)
 	
+
 var light_cone_color : Color = Color(1,1,1,1)
+
 
 func _ready():
 	
@@ -46,8 +46,6 @@ func _input(_event):
 	if dir.x != 0:
 		dir_buffer.x = dir.x
 		
-	
-	
 	
 
 func _physics_process(_delta):
