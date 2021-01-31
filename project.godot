@@ -99,7 +99,7 @@ Interagir={
 [locale]
 
 locale_filter=[ 0, [ "en", "pt_BR" ] ]
-translations=PoolStringArray( "res://Data/falas.csv" )
+translations=PoolStringArray( "res://Data/falas.pt_BR.translation" )
 
 [rendering]
 

@@ -37,7 +37,7 @@ position = Vector2( 56, 40 )
 texture = ExtResource( 2 )
 hframes = 5
 
-[node name="RichTextLabel" type="RichTextLabel" parent="ColorRect"]
+[node name="Fala" type="RichTextLabel" parent="ColorRect"]
 margin_left = 104.0
 margin_top = 17.0
 margin_right = 410.0
