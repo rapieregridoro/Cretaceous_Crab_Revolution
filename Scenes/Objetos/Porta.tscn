@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Images/Porta_abrindo.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/Objetos/Porta.gd" type="Script" id=2]
 
 [sub_resource type="Animation" id=1]
 resource_name = "Abrir"
@@ -25,6 +26,7 @@ extents = Vector2( 12, 59 )
 extents = Vector2( 36, 59 )
 
 [node name="Porta" type="Node2D"]
+script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )

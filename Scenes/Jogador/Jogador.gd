@@ -67,12 +67,13 @@ func _physics_process(_delta):
 	# warning-ignore:return_value_discarded
 	if not CCR_Global.cutscene:
 		move_and_slide(dir*Vector2(100,50), Vector2(0,-1))
-	
-	if dir_buffer.x < 0:
 		
-		$Jogador_anim.scale.x = 1
-	else:
-		$Jogador_anim.scale.x = -1
+		if dir_buffer.x < 0:
+			
+			$Jogador_anim.scale.x = 1
+		else:
+			$Jogador_anim.scale.x = -1
+		
 	
 	
 	$DirectionalLight.global_position = $Jogador_anim/font_cone_light.global_position
@@ -82,3 +83,11 @@ func _physics_process(_delta):
 	$DirectionalLight/DirectionalSoftLight.color = light_cone_color
 	
 	
+
+
+func _on_Morte_body_entered(body):
+	CCR_Global.cutscene = true
+	
+	$Jogador_anim/Death/Death.play()
+	
+	pass 
