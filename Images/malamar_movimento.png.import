@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/malamar movimento.png-41510287c96a63d61d5a5930f3dc83ca.stex"
+path="res://.import/malamar_movimento.png-d157be98a9b58123e25f38089486cdd9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/Art White/malamar movimento.png"
-dest_files=[ "res://.import/malamar movimento.png-41510287c96a63d61d5a5930f3dc83ca.stex" ]
+source_file="res://Images/malamar_movimento.png"
+dest_files=[ "res://.import/malamar_movimento.png-d157be98a9b58123e25f38089486cdd9.stex" ]
 
 [params]
 
