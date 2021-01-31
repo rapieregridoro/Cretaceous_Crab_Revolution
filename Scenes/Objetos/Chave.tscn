@@ -5,6 +5,17 @@
 
 [node name="Chave" type="Node2D"]
 
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+margin_left = -74.0
+margin_top = -66.0
+margin_right = 71.0
+margin_bottom = 67.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )
 
