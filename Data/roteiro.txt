@@ -22,9 +22,34 @@ Valerie_nave_5; Bom, isso vai triplicar o valor que combinamos antes.
 Ziloneo_nave_6; Certamente, já estou enviando metade do valor adiantado.
 Valerie_nave_7; Então o nerdola entende como as coisas funcionam.
 Valerie_nave_8; Entrem na nave, vamos partir!
+Froggson_nave_9; Acho que não tenho outra opção, certo, moça?
+Valerie_nave_10; Não. E apartir de agora vocês só me chamam de capitã!
 
 Froggson_submarino_0; Profundidade ideal alcansada, niveis de pressão normais.
 Valerie_submarino_1; Posso saber como vocês tem tanta certeza de que esse é o lugar certo?
+Ziloneo_submarino_2; Veja bem, capitã, a espécie em questão é a Potamon fluviatile, cuja distribuição geográfica era localizada somente...
+Valerie_submarino_3; Ta ta já entendi.
 
+Valerie_porta_um_0; Que?! Como tem uma porta aqui?
+Froggson_porta_um_1; Ouvi dizer que havia uma estação de pesquisa subaquática nessa região, talvez esta porta faça parte do complexo.
+Valerie_porta_um_2; Como iremos passar então? Quebrando? Essa joça não tem armas, né?
+Ziloneo_porta_um_3; Não, não tem, capitã, além disso existe algo bem mais sofisticado chamado chave, e deve haver uma nas proximidades.
+Valerie_porta_um_4; Prefiro nem perguntar por que teria uma chave largada por ai.
+
+Froggson_chave_0; Achamos a chave!
+Ziloneo_chave_1; Ai está a chave!
+Froggson_chave_2; Chave adquirida!
+Valerie_chave_3; Agora podemos prosseguir.
+Froggson_chave_4; A chave!
+
+Valerie_porta_um_aberta_0; Então essa porta ainda funciona, achei já ia poder voltar pra nave.
+Ziloneo_porta_um_aberta_1; Negativo, capitã, estamos só começando!
+
+Valerie_morte_0; DO QUE ESSA PORCARIA É FEITA!?
+Valerie_morte_1; COMO ASSIM?
+Valerie_morte_2; NÂO!
+Froggson_morte_3; Eu sabia.
+Froggson_morte_4; Era óbvio que isso ia acontecer.
+Ziloneo_morte_5; Me desculpem...
 
 
