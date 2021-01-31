@@ -19,6 +19,10 @@ config/name="Global_Game_Jam_2021"
 run/main_scene="res://Scenes/Fases/Fase_um.tscn"
 config/icon="res://Images/submarino.png"
 
+[autoload]
+
+CCR_Global="*res://Scenes/CCR_Global.tscn"
+
 [display]
 
 window/size/width=512

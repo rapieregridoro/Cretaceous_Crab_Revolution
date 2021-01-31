@@ -11,7 +11,7 @@ func set_cone_state(valor):
 		0:
 			light_cone_color = Color(1,1,1,1)
 			light_cone_state = valor
-			$DirectionalLight/DirectionalHardLight.set_item_cull_mask(1)
+			$Jogador_anim/DirectionalLight/DirectionalHardLight.set_item_cull_mask(1)
 		1:
 			light_cone_color = Color(0.898438, 0, 1,1)
 			light_cone_state = valor
@@ -65,10 +65,11 @@ func _physics_process(_delta):
 	else:
 		$Jogador_anim.scale.x = -1
 	
+	
+	$DirectionalLight.global_position = $Jogador_anim/font_cone_light.global_position
 	$DirectionalLight.rotation = (pointing - global_position).angle()
 	
 	$DirectionalLight/DirectionalHardLight.color = light_cone_color
 	$DirectionalLight/DirectionalSoftLight.color = light_cone_color
-	
 	
 	
