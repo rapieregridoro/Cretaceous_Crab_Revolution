@@ -19,6 +19,7 @@ extents = Vector2( 12, 8 )
 script = ExtResource( 1 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
+visible = false
 margin_left = -445.0
 margin_top = -303.0
 margin_right = 432.0

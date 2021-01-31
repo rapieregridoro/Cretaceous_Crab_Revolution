@@ -92,6 +92,11 @@ Interagir={
  ]
 }
 
+[locale]
+
+locale_filter=[ 0, [ "en", "pt_BR" ] ]
+translations=PoolStringArray( "res://Data/falas.csv" )
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
