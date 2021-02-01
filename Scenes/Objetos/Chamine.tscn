@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Images/Chamine.png" type="Texture" id=1]
 [ext_resource path="res://Audio/SFX/sfx_geiser.wav" type="AudioStream" id=2]
@@ -26,7 +26,7 @@ color_ramp = SubResource( 2 )
 
 [sub_resource type="Animation" id=4]
 resource_name = "Vai_Fumaca"
-length = 5.0
+length = 7.0
 loop = true
 tracks/0/type = "value"
 tracks/0/path = NodePath("Particles2D:emitting")
@@ -52,11 +52,37 @@ tracks/1/keys = {
 "update": 1,
 "values": [ true ]
 }
+tracks/2/type = "bezier"
+tracks/2/path = NodePath("Mortifera:position:y")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"points": PoolRealArray( 75, -0.25, 0, 0.25, 0, -231, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 5.14174 )
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Mortifera/CollisionShape2D:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 5.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 10, 76 )
 
 [node name="Chamine" type="Node2D"]
 
 [node name="Particles2D" type="Particles2D" parent="."]
 modulate = Color( 1, 1, 1, 0.65098 )
+emitting = false
 amount = 200
 lifetime = 5.0
 visibility_rect = Rect2( -20, -50, 40, 50 )
@@ -73,3 +99,12 @@ anims/Vai_Fumaca = SubResource( 4 )
 stream = ExtResource( 2 )
 max_distance = 512.0
 attenuation = 2.0
+
+[node name="Mortifera" type="Area2D" parent="."]
+position = Vector2( 0, -231 )
+collision_layer = 4
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mortifera"]
+shape = SubResource( 5 )
+disabled = true

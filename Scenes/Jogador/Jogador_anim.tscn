@@ -23,7 +23,6 @@ tracks/0/keys = {
 [sub_resource type="Animation" id=2]
 resource_name = "Death"
 length = 0.7
-loop = true
 tracks/0/type = "value"
 tracks/0/path = NodePath(".:frame")
 tracks/0/interp = 1
@@ -41,6 +40,7 @@ tracks/0/keys = {
 light_mask = 2
 
 [node name="Move" type="Sprite" parent="."]
+visible = false
 light_mask = 2
 texture = ExtResource( 1 )
 hframes = 5
@@ -51,11 +51,11 @@ autoplay = "Move"
 anims/Move = SubResource( 1 )
 
 [node name="Death" type="Sprite" parent="."]
-visible = false
 light_mask = 2
 texture = ExtResource( 2 )
 offset = Vector2( -5, -1 )
 hframes = 7
+frame = 6
 
 [node name="Death" type="AnimationPlayer" parent="Death"]
 anims/Death = SubResource( 2 )
