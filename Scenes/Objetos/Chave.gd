@@ -2,16 +2,24 @@ extends Node2D
 export var ID = 0
 var pegavel = false
 var mouse_dentro = false
+var conversa_chave = 0
+var fim = false
+var pego = false
+var botao_apertado = false
 func _ready():
 	pass # Replace with function body.
 
 
 func _process(delta):
-	if mouse_dentro and pegavel and Input.is_action_just_pressed("Interagir"):
-		CCR_Global.chave_um = true
-		$AudioStreamPlayer2D.play
 	
-
+	if pego and Input.is_action_just_pressed("Interagir"):
+		if botao_apertado:
+			botao_apertado = false
+		else:
+			chave_conversation()
+			queue_free() 
+		
+	
 
 func _on_Ativando_body_entered(body):
 	pegavel = true
@@ -22,10 +30,20 @@ func _on_Ativando_body_exited(body):
 	
 
 func _on_Button_pressed():
-	print("apertou")
-	print(pegavel)
 	if pegavel and Input.is_action_just_pressed("Interagir"):
 		CCR_Global.chave[ID] = true
 		$AudioStreamPlayer2D.play()
-		print("ID: ", ID, ", ", CCR_Global.chave[ID])
+		chave_conversation()
+		pego = true
+		visible = false
+		botao_apertado = true
+	
+
+func chave_conversation():
+	if !fim:
+		conversa_chave = randi() % 5
+		CCR_Global.conversando("chave", conversa_chave)
+		fim = true
+	else:
+		CCR_Global.talk("nada", "nada", 0, true)
 	

@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Scenes/Jogador/Jogador.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/Fases/TileMap_Fase.tscn" type="PackedScene" id=2]
@@ -11,6 +11,9 @@
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 58, 70 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 33.3698, 50.4634 )
 
 [node name="Fase_um" type="Node"]
 script = ExtResource( 6 )
@@ -93,24 +96,17 @@ ID = 4
 [node name="Chamine" parent="Objetos" instance=ExtResource( 8 )]
 position = Vector2( 194, 89 )
 
-[node name="Chamine2" parent="Objetos" instance=ExtResource( 8 )]
-position = Vector2( 3365, 1865 )
-
-[node name="Chamine3" parent="Objetos" instance=ExtResource( 8 )]
-position = Vector2( 3461, 1849 )
-
-[node name="Chamine4" parent="Objetos" instance=ExtResource( 8 )]
-position = Vector2( 3593, 1833 )
-
-[node name="Chamine5" parent="Objetos" instance=ExtResource( 8 )]
-position = Vector2( 3822, 1849 )
-
-[node name="Chamine6" parent="Objetos" instance=ExtResource( 8 )]
-position = Vector2( 3968, 1865 )
-
 [node name="Area2D" type="Area2D" parent="."]
 position = Vector2( -2453, -784 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource( 1 )
+
+[node name="porta_um_abrindo" type="Area2D" parent="."]
+position = Vector2( -1722.69, -725.499 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="porta_um_abrindo"]
+position = Vector2( -6.92627, 9.57495 )
+shape = SubResource( 2 )
 [connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
+[connection signal="body_entered" from="porta_um_abrindo" to="." method="_on_porta_um_abrindo_body_entered"]

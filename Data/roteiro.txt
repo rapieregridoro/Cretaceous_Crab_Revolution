@@ -27,4 +27,17 @@ Froggson_submarino_0; Profundidade ideal alcansada, niveis de pressão normais.
 Valerie_submarino_1; Posso saber como vocês tem tanta certeza de que esse é o lugar certo?
 
 
+Froggson_lab_0;Se não me engano as atividades desse complexo foram desativadas por falta de fundos.
+Froggson_lab_1;Interessante que está tudo bem preservado, mesmo depois de tanto tempo.
+Valerie_lab_2;Não sei do que você tá falando, só vejo pedra e alga pra todo lado.
+Froggson_lab_3;Talvez numa versão futura do jogo você veja.
+Valerie_lab_4;Que?
+Froggson_lab_5;...
+
+
+Ziloneo_final_0;Chegamos na parte mais funda do complexo.
+Valerie_final_1;Não tem nada aqui.
+Froggson_final_2;Eu vejo um brilho...
+Crabocitus_final_3;Bem vindos, criaturas, não imaginei que alguém nos encontraria novamente
+
 
