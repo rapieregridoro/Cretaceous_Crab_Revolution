@@ -4,34 +4,37 @@ var dir : Vector2
 var dir_buffer : Vector2
 var pointing : Vector2
 var light_cone_state = 0 setget set_cone_state
+export(Color) var  Lamp_one
+export(Color) var  Lamp_two
+export(Color) var  Lamp_tree
 
 func set_cone_state(valor):
 	
 	match valor:
 		0:
-			light_cone_color = Color(1,1,1,1)
+			light_cone_color = Lamp_one
 			light_cone_state = valor
 			$Jogador_anim/DirectionalLight/DirectionalHardLight.set_item_cull_mask(1)
-			$Jogador_anim/HardLight.texture_scale = 2
-			$Jogador_anim/SoftLight.texture_scale = 2
+			$Jogador_anim/HardLight.texture_scale = 1
+			$Jogador_anim/SoftLight.texture_scale = 1
 		1:
-			light_cone_color = Color(0.898438, 0, 1,1)
+			light_cone_color = Lamp_two
 			light_cone_state = valor
 			$DirectionalLight/DirectionalHardLight.set_item_cull_mask(9)
 			$Jogador_anim/HardLight.texture_scale = 1
 			$Jogador_anim/SoftLight.texture_scale = 1
 		2:
-			light_cone_color = Color(1, 0, 0, 1)
+			light_cone_color = Lamp_tree
 			light_cone_state = valor
 			$DirectionalLight/DirectionalHardLight.set_item_cull_mask(5)
 			$Jogador_anim/HardLight.texture_scale = 1
 			$Jogador_anim/SoftLight.texture_scale = 1
 		3:
-			light_cone_color = Color(1,1,1,1)
+			light_cone_color = Lamp_one
 			light_cone_state = 0
 			$DirectionalLight/DirectionalHardLight.set_item_cull_mask(1)
-			$Jogador_anim/HardLight.texture_scale = 2
-			$Jogador_anim/SoftLight.texture_scale = 2
+			$Jogador_anim/HardLight.texture_scale = 1
+			$Jogador_anim/SoftLight.texture_scale = 1
 	
 	
 
