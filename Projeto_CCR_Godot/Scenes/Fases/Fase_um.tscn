@@ -1,0 +1,112 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://Scenes/Jogador/Jogador.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Fases/TileMap_Fase.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/Objetos/Chave.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/Fases/Particula_fundo.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/Fases/Fase_um_Objetos.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Scenes/Fases/Fase_um.gd" type="Script" id=6]
+[ext_resource path="res://Scenes/Objetos/Porta.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Scenes/Objetos/Chamine.tscn" type="PackedScene" id=8]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 58, 70 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 33.3698, 50.4634 )
+
+[node name="Fase_um" type="Node"]
+script = ExtResource( 6 )
+
+[node name="Particula_fundo" parent="." instance=ExtResource( 4 )]
+
+[node name="TileMap2" parent="." instance=ExtResource( 2 )]
+position = Vector2( -2885, -792 )
+
+[node name="Jogador" parent="." instance=ExtResource( 1 )]
+position = Vector2( -2886, -821 )
+
+[node name="Camera2D" type="Camera2D" parent="Jogador"]
+position = Vector2( 0, 40 )
+current = true
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+drag_margin_top = 0.1
+drag_margin_bottom = 0.1
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="ColorRect2" type="ColorRect" parent="CanvasLayer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Objetos" parent="." instance=ExtResource( 5 )]
+position = Vector2( -2885, -792 )
+
+[node name="Chaves" type="Node2D" parent="Objetos"]
+
+[node name="Chave_0" parent="Objetos/Chaves" instance=ExtResource( 3 )]
+position = Vector2( 662, -174 )
+
+[node name="Chave_1" parent="Objetos/Chaves" instance=ExtResource( 3 )]
+position = Vector2( 2355, 422 )
+ID = 1
+
+[node name="Chave_2" parent="Objetos/Chaves" instance=ExtResource( 3 )]
+position = Vector2( 2402, 1053 )
+ID = 2
+
+[node name="Chave_3" parent="Objetos/Chaves" instance=ExtResource( 3 )]
+position = Vector2( 4180, 647 )
+ID = 3
+
+[node name="Chave_4" parent="Objetos/Chaves" instance=ExtResource( 3 )]
+position = Vector2( 6260, 918 )
+ID = 4
+
+[node name="Portas" type="Node2D" parent="Objetos"]
+
+[node name="Porta_0" parent="Objetos/Portas" instance=ExtResource( 7 )]
+position = Vector2( 1104, 80 )
+
+[node name="Porta_1" parent="Objetos/Portas" instance=ExtResource( 7 )]
+position = Vector2( 1360, 864 )
+rotation = 1.5706
+ID = 1
+
+[node name="Porta_2" parent="Objetos/Portas" instance=ExtResource( 7 )]
+position = Vector2( 2464, 1344 )
+ID = 2
+
+[node name="Porta_3" parent="Objetos/Portas" instance=ExtResource( 7 )]
+position = Vector2( 2624, 1680 )
+scale = Vector2( -1, 1 )
+ID = 3
+
+[node name="Porta_4" parent="Objetos/Portas" instance=ExtResource( 7 )]
+position = Vector2( 2592, 1680 )
+scale = Vector2( -1, 1 )
+ID = 4
+
+[node name="Chamine" parent="Objetos" instance=ExtResource( 8 )]
+position = Vector2( 194, 89 )
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2( -2453, -784 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 1 )
+
+[node name="porta_um_abrindo" type="Area2D" parent="."]
+position = Vector2( -1722.69, -725.499 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="porta_um_abrindo"]
+position = Vector2( -6.92627, 9.57495 )
+shape = SubResource( 2 )
+[connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
+[connection signal="body_entered" from="porta_um_abrindo" to="." method="_on_porta_um_abrindo_body_entered"]
