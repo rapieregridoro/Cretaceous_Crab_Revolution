@@ -1,6 +1,7 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://Images/coralUm.png" type="Texture" id=1]
+[ext_resource path="res://Images/Cenario/coralUm.png" type="Texture" id=1]
+
 
 [node name="Coral_Um" type="Sprite"]
 texture = ExtResource( 1 )
