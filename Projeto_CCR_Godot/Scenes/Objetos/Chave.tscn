@@ -2,8 +2,9 @@
 
 [ext_resource path="res://Images/chave.png" type="Texture" id=1]
 [ext_resource path="res://Images/chave_luz.png" type="Texture" id=2]
-[ext_resource path="res://Scenes/Objetos/Chave.gd" type="Script" id=3]
+[ext_resource path="res://Script/Chave.gd" type="Script" id=3]
 [ext_resource path="res://Audio/SFX/Chave_V1.wav" type="AudioStream" id=4]
+
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 47.0106

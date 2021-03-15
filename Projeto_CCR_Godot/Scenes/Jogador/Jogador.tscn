@@ -1,6 +1,6 @@
 [gd_scene load_steps=12 format=2]
 
-[ext_resource path="res://Scenes/Jogador/Jogador.gd" type="Script" id=1]
+[ext_resource path="res://Script/Jogador.gd" type="Script" id=1]
 [ext_resource path="res://Audio/SFX/Motor_3.wav" type="AudioStream" id=2]
 [ext_resource path="res://Images/bolha.png" type="Texture" id=3]
 [ext_resource path="res://Images/light.png" type="Texture" id=4]
@@ -8,6 +8,7 @@
 [ext_resource path="res://Scenes/Jogador/Jogador_anim.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Audio/SFX/Motor_2.wav" type="AudioStream" id=7]
 [ext_resource path="res://Audio/SFX/Motor_1.wav" type="AudioStream" id=8]
+
 
 [sub_resource type="ParticlesMaterial" id=1]
 gravity = Vector3( 0, -30, 0 )
