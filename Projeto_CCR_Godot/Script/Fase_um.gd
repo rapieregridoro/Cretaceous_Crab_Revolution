@@ -12,7 +12,7 @@ var conversa_final = 0
 func _ready():
 	
 	CCR_Global.get_node("GGJ21_-_Trilha_Submarino").play()
-	
+	CCR_Global.get_node("HUD_inferior/ColorRect").show()
 
 
 func _process(delta):
