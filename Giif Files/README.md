@@ -1,2 +1,2 @@
 # Cretaceous_Crab_Revolution
-Jogo da Global Game Jam pela Gatixa Studio
+Pasta para salvar gifs diversos de elementos do jogo, por exemplo, animações.
