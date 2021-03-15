@@ -9,7 +9,6 @@
 [ext_resource path="res://Audio/SFX/Motor_2.wav" type="AudioStream" id=7]
 [ext_resource path="res://Audio/SFX/Motor_1.wav" type="AudioStream" id=8]
 
-
 [sub_resource type="ParticlesMaterial" id=1]
 gravity = Vector3( 0, -30, 0 )
 initial_velocity = 10.0
