@@ -13,7 +13,7 @@ var cutscene = false
 
 func _ready():
 	TranslationServer.set_locale("pt_BR")
-	
+	$HUD_inferior/ColorRect.hide()
 
 func _process(delta):
 	
