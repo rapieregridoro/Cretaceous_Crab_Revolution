@@ -1,2 +1,2 @@
-# Cretaceous_Crab_Revolution
+# Marketing
 Pasta para arquivos relacionados ao marketing e divulgação do jogo
