@@ -1,2 +1,2 @@
-# Cretaceous_Crab_Revolution
+# Fonts
 Pasta com as fontes de texto do jogo
