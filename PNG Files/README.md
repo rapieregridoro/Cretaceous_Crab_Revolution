@@ -1,2 +1,2 @@
 # Cretaceous_Crab_Revolution
-Jogo da Global Game Jam pela Gatixa Studio
+Pasta apara salvar arquitos em png QUE NÃO SERÃO USADOS NO JOGO
