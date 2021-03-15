@@ -1,2 +1,2 @@
-# Cretaceous_Crab_Revolution
+# Tres
 Pasta com os arquivos de recursos do tipo .tres
