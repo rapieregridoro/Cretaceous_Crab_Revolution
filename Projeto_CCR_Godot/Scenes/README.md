@@ -1,2 +1,2 @@
-# Cretaceous_Crab_Revolution
+# Scenes
 Pasta com as cenas usadas pelo editor do Godot
