@@ -43,7 +43,7 @@ func intro_conversation():
 		conversando = "nenhuma"
 		
 	
-	
+
 func submarino_conversation():
 	
 	if conversa_submarino <= 4:
@@ -57,14 +57,7 @@ func submarino_conversation():
 		conversando = "nenhuma"
 		
 	
-	
 
-
-
-
-		
-		
-		
 func porta_um_aberta_conversation():
 	
 	if conversa_porta_um_aberta <= 2:
