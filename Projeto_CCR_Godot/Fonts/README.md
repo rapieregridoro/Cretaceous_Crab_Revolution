@@ -1,2 +1,2 @@
 # Cretaceous_Crab_Revolution
-Jogo da Global Game Jam pela Gatixa Studio
+Pasta com as fontes de texto do jogo
