@@ -1,2 +1,2 @@
-# Cretaceous_Crab_Revolution
-Jogo da Global Game Jam pela Gatixa Studio
+# Exports
+Pasta com os executáveis do jogo Crab Revolution
