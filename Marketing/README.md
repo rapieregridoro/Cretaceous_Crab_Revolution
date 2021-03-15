@@ -1,2 +1,2 @@
-# Cretaceous_Crab_Revolution
-Jogo da Global Game Jam pela Gatixa Studio
+# Marketing
+Pasta para arquivos relacionados ao marketing e divulgação do jogo
