@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Submarino_move.png-8d8b40147b5082962aaa5305d64488c0.stex"
+path="res://.import/Submarino_death.png-9da440b43255d662f09e2a4454fabb41.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/Submarino_move.png"
-dest_files=[ "res://.import/Submarino_move.png-8d8b40147b5082962aaa5305d64488c0.stex" ]
+source_file="res://Images/Personagens/Submarino_death.png"
+dest_files=[ "res://.import/Submarino_death.png-9da440b43255d662f09e2a4454fabb41.stex" ]
 
 [params]
 

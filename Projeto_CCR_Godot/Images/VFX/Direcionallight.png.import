@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Submarino_death.png-7028138dfc84b8ce5dad2f779736df0e.stex"
+path="res://.import/Direcionallight.png-43f0316d523c98cc1ef7e3018770dc0e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/Submarino_death.png"
-dest_files=[ "res://.import/Submarino_death.png-7028138dfc84b8ce5dad2f779736df0e.stex" ]
+source_file="res://Images/VFX/Direcionallight.png"
+dest_files=[ "res://.import/Direcionallight.png-43f0316d523c98cc1ef7e3018770dc0e.stex" ]
 
 [params]
 
