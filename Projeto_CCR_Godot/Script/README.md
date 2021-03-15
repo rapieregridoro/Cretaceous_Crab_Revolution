@@ -1,2 +1,2 @@
-# Cretaceous_Crab_Revolution
+# Script
 Pasta com os códigos usados no jogo
