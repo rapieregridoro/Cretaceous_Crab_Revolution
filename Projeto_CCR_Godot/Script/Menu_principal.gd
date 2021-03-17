@@ -4,6 +4,7 @@ export(PackedScene) var Jogar
 var versao = "Ver 0.1"
 
 func _ready():
+	CCR_Global.get_node("HUD_inferior/ColorRect").hide()
 	$Versao.text = versao
 	pass 
 
