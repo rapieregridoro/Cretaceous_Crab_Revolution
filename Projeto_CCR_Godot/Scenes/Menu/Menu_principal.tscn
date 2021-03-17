@@ -39,6 +39,9 @@ margin_top = -11.5
 margin_right = 32.0
 margin_bottom = 11.5
 texture_hover = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Label" type="Label" parent="Jogar"]
 anchor_right = 1.0
@@ -72,11 +75,12 @@ align = 1
 valign = 1
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
-margin_left = 13.0
-margin_top = 90.0
-margin_right = 137.0
-margin_bottom = 130.0
-text = "Alerta"
+margin_left = 14.0
+margin_top = 84.0
+margin_right = 138.0
+margin_bottom = 124.0
+text = "
+Alerta"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -91,7 +95,7 @@ texture_hover = ExtResource( 4 )
 [node name="Label" type="Label" parent="PT"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-text = "Portugues"
+text = "Português"
 __meta__ = {
 "_edit_use_anchors_": false
 }
