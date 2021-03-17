@@ -6,9 +6,10 @@ var conversa_chave = 0
 var fim = false
 var pego = false
 var botao_apertado = false
-func _ready():
-	pass # Replace with function body.
 
+
+func _ready():
+	pass 
 
 func _process(delta):
 	
