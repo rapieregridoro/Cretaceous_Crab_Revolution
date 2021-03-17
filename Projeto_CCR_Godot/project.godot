@@ -15,7 +15,8 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Global_Game_Jam_2021"
+config/name="Cretacious Crab Revolution"
+config/description="Jogo que teve inicio na Global Game Jam pelo grupo Gatixa Studio, atual Capy Constellation."
 run/main_scene="res://Scenes/Main.tscn"
 
 [autoload]
