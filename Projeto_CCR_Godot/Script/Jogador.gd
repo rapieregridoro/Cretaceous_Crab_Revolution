@@ -126,5 +126,9 @@ func _on_Morte_area_shape_entered(area_id, area, area_shape, self_shape):
 	$Jogador_anim/Move.hide()
 	$Jogador_anim/Death.show()
 	$Jogador_anim/Death/Death.play("Death")
+	yield(get_tree().create_timer(2.0), "timeout")
+	get_tree().change_scene("res://Scenes/Menu/Menu_principal.tscn")
+	CCR_Global.cutscene = false
+
 	
 	
