@@ -15,8 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Cretacious Crab Revolution"
-config/description="Jogo que teve Inicil na Global Game jam 2021 pelo Grupo Gatixa"
+config/name="Global_Game_Jam_2021"
 run/main_scene="res://Scenes/Main.tscn"
 
 [autoload]
@@ -31,6 +30,10 @@ window/size/test_width=1024
 window/size/test_height=576
 window/stretch/mode="viewport"
 window/stretch/aspect="keep"
+
+[gui]
+
+theme/custom_font="res://Tres/FonteGlobal.tres"
 
 [importer_defaults]
 

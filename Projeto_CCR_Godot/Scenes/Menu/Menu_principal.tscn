@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Script/Menu_principal.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/Fases/Fase_um/Fase_um.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Images/HUD/capa do jogo.png" type="Texture" id=3]
+[ext_resource path="res://Images/HUD/Hover.png" type="Texture" id=4]
 
 [node name="Menu_principal" type="Control"]
 anchor_right = 1.0
@@ -12,32 +14,106 @@ __meta__ = {
 }
 Jogar = ExtResource( 2 )
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="ColorRect" type="TextureRect" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-color = Color( 0, 0, 0, 1 )
+texture = ExtResource( 3 )
+
+[node name="Versao" type="Label" parent="."]
+margin_left = 450.0
+margin_top = 86.0
+margin_right = 508.0
+margin_bottom = 105.0
+text = "Ver"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="RichTextLabel" type="RichTextLabel" parent="."]
-margin_left = 39.0
-margin_top = 25.0
-margin_right = 219.0
-margin_bottom = 44.0
-text = "Cretacious Crab Revolution"
-
-[node name="Jogar" type="Button" parent="."]
+[node name="Jogar" type="TextureButton" parent="."]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -6.0
-margin_top = -10.0
-margin_right = 6.0
-margin_bottom = 10.0
+margin_left = -32.0
+margin_top = -11.5
+margin_right = 32.0
+margin_bottom = 11.5
+texture_hover = ExtResource( 4 )
+
+[node name="Label" type="Label" parent="Jogar"]
+anchor_right = 1.0
+anchor_bottom = 1.0
 text = "Jogar"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Quit" type="TextureButton" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -32.0
+margin_top = 19.0
+margin_right = 32.0
+margin_bottom = 39.0
+texture_hover = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Quit"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+text = "Sair"
+align = 1
+valign = 1
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 13.0
+margin_top = 90.0
+margin_right = 137.0
+margin_bottom = 130.0
+text = "Alerta"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PT" type="TextureButton" parent="."]
+margin_left = 156.0
+margin_top = 206.0
+margin_right = 226.0
+margin_bottom = 225.0
+texture_hover = ExtResource( 4 )
+
+[node name="Label" type="Label" parent="PT"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+text = "Portugues"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="EN" type="TextureButton" parent="."]
+margin_left = 279.0
+margin_top = 207.0
+margin_right = 349.0
+margin_bottom = 226.0
+texture_hover = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="EN"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+text = "English"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 [connection signal="pressed" from="Jogar" to="." method="_on_Jogar_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]
+[connection signal="pressed" from="PT" to="." method="_on_PT_pressed"]
+[connection signal="pressed" from="EN" to="." method="_on_EN_pressed"]
