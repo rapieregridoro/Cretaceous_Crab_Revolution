@@ -1,7 +1,9 @@
 Key;pt_BR;en_US
 Botao_jogar;Jogar;Play
 Botao_sair;Sair;Quit
-Disclaimer;Aviso: essa é uma versão inicial para testes, tudo está sujeito a mudanças, obrigado!;Disclaimer: this is a testing version, everything is subject to change, thank you!
+Disclaimer;"Aviso: 
+essa é uma versão inicial para testes, tudo está sujeito a mudanças, obrigado!";"Disclaimer:
+this is a testing version, everything is subject to change, thank you!"
 ;;
 Ziloneo_intro_0;Professor Froggson, viu essa foto que viralizou na omninet?;Professor Froggson, did you see this photo that went viral on the omninet?
 Froggson_intro_1;Não estou ciente, Doutor Ziloneo.;I'm not aware, Doctor Ziloneo.
@@ -35,7 +37,7 @@ Valerie_submarino_1;Posso saber como vocês tem tanta certeza de que esse é o l
 Ziloneo_submarino_2;Veja bem, capitã, a espécie em questão é a Potamon fluviatile, cuja distribuição geográfica era localizada somente...;You see, captain, the species in question is Potamon fluviatile, whose geographical distribution was located only ...
 Valerie_submarino_3;Tá, tá, já entendi.; Uh, yeah, i got it.
 ;;
-Valerie_porta_um_0;Que?! Como tem uma porta aqui?; What?! How is there a door here?;
+Valerie_porta_um_0;Que?! Como tem uma porta aqui?; What?! How is there a door here?
 Froggson_porta_um_1;Ouvi dizer que havia uma estação de pesquisa subaquática nessa região, talvez esta porta faça parte do complexo.;I heard that there was an underwater research station in this region, perhaps this port is part of the facility.
 Valerie_porta_um_2;Como iremos passar então? Quebrando? Essa joça não tem armas, né?;How will we get through then? Breaking through? This thing has no weapons, right?
 Ziloneo_porta_um_3;Não, não tem, capitã, além disso existe algo bem mais sofisticado chamado chave, e deve haver uma nas proximidades.;No, there isn't, captain. Besides that there is something much more sophisticated called key, and there must be one nearby.
