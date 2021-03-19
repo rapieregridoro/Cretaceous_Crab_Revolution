@@ -45,10 +45,10 @@ texture = ExtResource( 2 )
 hframes = 5
 
 [node name="Fala" type="RichTextLabel" parent="ColorRect"]
-margin_left = 106.0
-margin_top = 221.0
-margin_right = 406.0
-margin_bottom = 276.0
+margin_left = 111.0
+margin_top = 222.0
+margin_right = 401.0
+margin_bottom = 275.0
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
