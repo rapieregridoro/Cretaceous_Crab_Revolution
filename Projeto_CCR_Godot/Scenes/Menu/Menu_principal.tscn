@@ -84,10 +84,10 @@ __meta__ = {
 }
 
 [node name="Disclaimer" type="Label" parent="."]
-margin_left = 14.0
-margin_top = 84.0
-margin_right = 167.0
-margin_bottom = 124.0
+margin_left = 15.0
+margin_top = 94.0
+margin_right = 94.0
+margin_bottom = 134.0
 custom_fonts/font = SubResource( 1 )
 text = "Disclaimer"
 autowrap = true
