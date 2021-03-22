@@ -2,11 +2,11 @@ extends KinematicBody2D
 
 #Submarino controlado pelo Jogador
 
-export var has_white_lamp = false
+export var has_white_lamp = true
 export(Color) var  Lamp_white
-export var has_red_lamp = false
+export var has_red_lamp = true
 export(Color) var  Lamp_red
-export var has_violet_lamp = false
+export var has_violet_lamp = true
 export(Color) var  Lamp_violet
 
 

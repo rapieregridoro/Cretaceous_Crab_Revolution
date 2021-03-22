@@ -24,11 +24,8 @@ extents = Vector2( 16, 9 )
 [node name="Jogador" type="KinematicBody2D"]
 collision_layer = 3
 script = ExtResource( 1 )
-has_white_lamp = true
 Lamp_white = Color( 1, 1, 1, 1 )
-has_red_lamp = true
 Lamp_red = Color( 1, 0, 0, 1 )
-has_violet_lamp = true
 Lamp_violet = Color( 0.839216, 0.215686, 0.992157, 1 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
