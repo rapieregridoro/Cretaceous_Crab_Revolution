@@ -34,7 +34,7 @@ window/stretch/aspect="keep"
 
 [gui]
 
-theme/custom_font="res://Tres/FonteGlobal.tres"
+theme/custom_font="res://Tres/Raccoon_PT.tres"
 
 [importer_defaults]
 
@@ -102,8 +102,9 @@ Interagir={
 
 [locale]
 
-locale_filter=[ 0, [ "en", "pt_BR" ] ]
-translations=PoolStringArray( "res://Data/falas.pt_BR.translation" )
+fallback="pt_BR"
+translations=PoolStringArray( "res://Data/falas.en_US.translation", "res://Data/falas.pt_BR.translation" )
+locale_filter=[ 0, [ "en_US", "pt_BR" ] ]
 
 [rendering]
 

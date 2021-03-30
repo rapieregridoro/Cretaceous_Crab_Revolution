@@ -4,6 +4,7 @@ export(PackedScene) var Jogar
 var versao = "Ver 0.1"
 
 func _ready():
+	CCR_Global.get_node("HUD_inferior/ColorRect").hide()
 	$Versao.text = versao
 	pass 
 
@@ -24,9 +25,9 @@ func _on_Quit_pressed():
 
 func _on_PT_pressed():
 	TranslationServer.set_locale("pt_BR")
-	print(tr('Botao_jogar'))
+	print(tr("Botao_jogar"))
 
 
 func _on_EN_pressed():
 	TranslationServer.set_locale("en_US")
-	print(tr('Botao_jogar'))
+	print(tr("Botao_jogar"))
