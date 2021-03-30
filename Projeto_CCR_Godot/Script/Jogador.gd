@@ -1,41 +1,45 @@
 extends KinematicBody2D
 
-export(Color) var  Lamp_one
-export(Color) var  Lamp_two
-export(Color) var  Lamp_tree
+#Submarino controlado pelo Jogador
+
+export var has_white_lamp = true
+export(Color) var  Lamp_white
+export var has_red_lamp = true
+export(Color) var  Lamp_red
+export var has_violet_lamp = true
+export(Color) var  Lamp_violet
+
 
 var dir : Vector2
 var dir_buffer : Vector2
 
 var pointing : Vector2
-var light_cone_color : Color = Lamp_one
+var light_color : Color = Lamp_white
 
 var has_radial_lens = true
-var has_cone_lens = true
+var has_lens = true
 var has_lazer = true
 
-var has_white_lamp = true
-var has_red_lamp = true
-var has_violet_lamp = true
 
-var light_cone_state = 0 setget set_cone_state
-func set_cone_state(valor):
+
+var light_state = 0 setget set_light_state
+func set_light_state(valor):
 	
 	match valor:
 		
 		0:
-			light_cone_color = Lamp_one
-			light_cone_state = valor
+			light_color = Lamp_white
+			light_state = valor
 			$DirectionalLight/DirectionalHardLight.set_item_cull_mask(1)
 			
 		1:
-			light_cone_color = Lamp_two
-			light_cone_state = valor
+			light_color = Lamp_red
+			light_state = valor
 			$DirectionalLight/DirectionalHardLight.set_item_cull_mask(9)
 			
 		2:
-			light_cone_color = Lamp_tree
-			light_cone_state = valor
+			light_color = Lamp_violet
+			light_state = valor
 			$DirectionalLight/DirectionalHardLight.set_item_cull_mask(5)
 			
 		
@@ -78,13 +82,19 @@ func _physics_process(_delta):
 #Funções
 func change_lamp():
 	#mudança do estado da luz
-	if light_cone_state < 2:
-		light_cone_state += 1
-	else:
-		light_cone_state = 0
-	
-	set_cone_state(light_cone_state)
-	
+	var mudou = false
+	var lamps = [has_white_lamp,has_red_lamp, has_violet_lamp]
+	var new_lamp = light_state + 1 if light_state < 2 else 0
+	if has_white_lamp or has_red_lamp or has_violet_lamp:
+		while !mudou:
+			
+			if !lamps[new_lamp]:
+				new_lamp = new_lamp + 1 if new_lamp < 2 else 0
+			else:
+				set_light_state(new_lamp)
+				mudou = true
+			
+		
 
 func movement():
 	#movimento do submarino
@@ -114,8 +124,8 @@ func directional_light():
 	$DirectionalLight.rotation = (pointing - global_position).angle()
 	
 	#cor da fonte de luz
-	$DirectionalLight/DirectionalHardLight.color = light_cone_color
-	$DirectionalLight/DirectionalSoftLight.color = light_cone_color
+	$DirectionalLight/DirectionalHardLight.color = light_color
+	$DirectionalLight/DirectionalSoftLight.color = light_color
 	
 	
 
