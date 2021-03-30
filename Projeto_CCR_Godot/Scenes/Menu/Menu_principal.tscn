@@ -1,9 +1,15 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Script/Menu_principal.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/Fases/Fase_um/Fase_um.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Images/HUD/capa do jogo.png" type="Texture" id=3]
 [ext_resource path="res://Images/HUD/Hover.png" type="Texture" id=4]
+[ext_resource path="res://Fonts/Raccoon Font PT.ttf" type="DynamicFontData" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+size = 6
+use_mipmaps = true
+font_data = ExtResource( 5 )
 
 [node name="Menu_principal" type="Control"]
 anchor_right = 1.0
@@ -39,11 +45,14 @@ margin_top = -11.5
 margin_right = 32.0
 margin_bottom = 11.5
 texture_hover = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Label" type="Label" parent="Jogar"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-text = "Jogar"
+text = "Botao_jogar"
 align = 1
 valign = 1
 __meta__ = {
@@ -67,16 +76,21 @@ __meta__ = {
 [node name="Label" type="Label" parent="Quit"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-text = "Sair"
+text = "Botao_sair"
 align = 1
 valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
-[node name="RichTextLabel" type="RichTextLabel" parent="."]
-margin_left = 13.0
-margin_top = 90.0
-margin_right = 137.0
-margin_bottom = 130.0
-text = "Alerta"
+[node name="Disclaimer" type="Label" parent="."]
+margin_left = 15.0
+margin_top = 94.0
+margin_right = 94.0
+margin_bottom = 134.0
+custom_fonts/font = SubResource( 1 )
+text = "Disclaimer"
+autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -87,11 +101,14 @@ margin_top = 206.0
 margin_right = 226.0
 margin_bottom = 225.0
 texture_hover = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Label" type="Label" parent="PT"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-text = "Portugues"
+text = "Português"
 __meta__ = {
 "_edit_use_anchors_": false
 }
