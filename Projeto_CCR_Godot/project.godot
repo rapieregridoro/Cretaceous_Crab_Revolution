@@ -103,8 +103,8 @@ Interagir={
 [locale]
 
 fallback="pt_BR"
-translations=PoolStringArray( "res://Data/falas.en.translation", "res://Data/falas.en_US.translation", "res://Data/falas.pt_BR.translation" )
-locale_filter=[ 0, [  ] ]
+translations=PoolStringArray( "res://Data/falas.en_US.translation", "res://Data/falas.pt_BR.translation" )
+locale_filter=[ 0, [ "en_US", "pt_BR" ] ]
 
 [rendering]
 
