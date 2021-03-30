@@ -29,12 +29,12 @@ window/size/width=512
 window/size/height=288
 window/size/test_width=1024
 window/size/test_height=576
-window/stretch/mode="2d"
+window/stretch/mode="viewport"
 window/stretch/aspect="keep"
 
 [gui]
 
-theme/custom_font="res://Tres/FonteGlobal.tres"
+theme/custom_font="res://Tres/Raccoon_PT.tres"
 
 [importer_defaults]
 
@@ -103,8 +103,8 @@ Interagir={
 [locale]
 
 fallback="pt_BR"
-translations=PoolStringArray( "res://Data/falas.en.translation", "res://Data/falas.en_US.translation", "res://Data/falas.pt_BR.translation" )
-locale_filter=[ 0, [  ] ]
+translations=PoolStringArray( "res://Data/falas.en_US.translation", "res://Data/falas.pt_BR.translation" )
+locale_filter=[ 0, [ "en_US", "pt_BR" ] ]
 
 [rendering]
 
